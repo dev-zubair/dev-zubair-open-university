@@ -1,13 +1,13 @@
 import "./App.css";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
-import Services from "./components/Services/Services";
 import NotFound from "./components/NotFound/NotFound";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact/Contact";
 import Navbar from "./components/Navbar/Navbar";
+import Courses from "./components/Courses/Courses";
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
             <About></About>
           </Route>
           <Route path="/services">
-            <Services></Services>
+            <Courses></Courses>
           </Route>
           <Route path="/contact">
             <Contact></Contact>

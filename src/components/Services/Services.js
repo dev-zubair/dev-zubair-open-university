@@ -13,6 +13,7 @@ const Services = (props) => {
             <h5 className="card-title">By {name}</h5>
             <p className="card-title">Duration: {duration}</p>
             <p>Classes: {day}</p>
+            <button className="btn-style">Enroll Now</button>
           </div>
         </div>
       </div>

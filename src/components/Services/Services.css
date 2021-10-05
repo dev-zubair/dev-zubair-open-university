@@ -2,3 +2,11 @@
   color: #031f51;
   margin: 10px;
 }
+.btn-style {
+  padding: 5px 20px;
+  background-color: brown;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: antiquewhite;
+  font-weight: 700;
+}

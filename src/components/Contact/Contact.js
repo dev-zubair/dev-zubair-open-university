@@ -11,7 +11,7 @@ const Contact = () => {
         <input type="text" name="" id="" placeholder="Comment" />
       </div>
       <div>
-        <button className="submit-button">Submit</button>
+        <button className="submit-button">Send</button>
       </div>
     </div>
   );

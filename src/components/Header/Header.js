@@ -1,10 +1,10 @@
 import React from "react";
+import image from "./../../images/banner-online-education-course-1920x495.jpeg";
 
 const Header = () => {
   return (
-    <div>
-      <h1>This is header</h1>
-      <img src="./../../../public/images/banner.jpeg" alt="..."></img>
+    <div class="mb-5">
+      <img src={image} alt="..."></img>
     </div>
   );
 };
