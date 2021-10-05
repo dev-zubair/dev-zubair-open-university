@@ -1,0 +1,13 @@
+.nav-style {
+  background-color: black;
+}
+
+.logo-style {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 30px;
+}
+.nav-item a {
+  margin-right: 20px;
+  color: antiquewhite;
+}
